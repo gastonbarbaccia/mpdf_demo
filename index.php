@@ -8,7 +8,7 @@ $mpdf = new \Mpdf\Mpdf();
 $stylesheet = file_get_contents('style.css');
 $mpdf->WriteHTML($stylesheet,\Mpdf\HTMLParserMode::HEADER_CSS);
 $mpdf->falseBoldWeight = 8;
-$mpdf->WriteHTML('<h1 style="text-align: center; font-size: 17px;padding-top:2.5%;"><b>Formato general de presentación de Evaluación de Impacto en la Protección de Datos Personales </b></h1>');
+$mpdf->WriteHTML('<h1 style="text-align: center; font-size: 17px;padding-top:2.5%;"><b>Forma</b></h1>');
 $mpdf->falseBoldWeight = 3;
 $mpdf->WriteHTML('<p style="text-align: right"><b>No. oficio:</b> COTAI-PR-287/2022<br>Monterrey, Nuevo León, a 22 de enero de 2019<br><b>Asunto:</b> Se presenta EIPDP</p><br>'); 
 $mpdf->falseBoldWeight = 3;
